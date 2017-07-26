@@ -1,9 +1,71 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 	<title>Asg15.html</title>
 </head>
-<body>
+<body bgcolor="lightblue">
+<form>
+<table width="100%">
+	<tr>
+		<td><h2>STEP 1</h2></td>
+	</tr>
+	<tr>
+		<td bgcolor="white" colspan="10" align="left"><b>PERSONAL INFORMATION</b> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;All fields are mandatory</td>
+	</tr>
+	<tr>
+		<td>First Name:</td><td><input type="text" name="firstname" width="200px"></td>
+		<td>Last Name:</td><td><input type="text" name="lastname"></td>
+	</tr>
+	<tr>
+		<td>Email:</td><td><input type="email" name="email"></td><td>Tel Number:</td><td><input type="text" name=""></td>
+	</tr>
+	<tr>
+		<td>Mobile Number:</td><td><input type="number" name="Mobile"></td><td>City:</td><td><input type="text" name="City"></td>
+	</tr>
+	<tr>
+		<td>State:</td><td><input type="text" name="State"></td><td>Gender:</td><td><input type="radio" name="Gender" value="male">Male</td><td><input type="radio" name="Gender" value="female">Female</td>
+	</tr>
+	<tr>
+		<td>Date Of Birth:</td>
+		<td><select name="Date" ><option>dd</option>
+		<option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option></select>
+		<select name="month"><option>mm</option><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option></select>
+		<select  name="year" ><option>yyyy</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option></select></td>
+		<td>Emergency Contact Number:</td><td><input type="number" name="emcontactnumber"></td>
+	</tr>
+	<tr>
+		<td>Guardian's Name:</td><td><input type="text" name="Guardian"></td><td>Relationship:</td><td><input type="text" name="Relationship"></td>
+	</tr>
+	<tr>
+		<td>Mobile Number:</td><td><input type="Number" name="Gnumber"></td>
+	</tr>
+	<tr>
+		<td><h2>STEP 2</h2></td>
+	</tr>
+	<tr>
+		<td colspan="10" bgcolor="white" align="left"><b>OTHER DETAILS</b> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;All fields are mandatory</td>
+	</tr>
+	<tr>
+		<td>Employement Details:</td><td><input type="radio" name="Employementdetails" value="Public Sector">Public Sector</td><td><input type="radio" name="Employementdetails" value="Student" checked="yes">Student</td><td><input type="radio" name="Employementdetails" value="Self Employed">Self Employed</td><td><input type="radio" name="Employementdetails" value="Others">Others</td>
+	</tr>
+	<tr>
+		<td>Annual Family Income:</td><td><input type="radio" name="Income" value="50,000" checked="yes">50,000</td><td><input type="radio" name="Income" value="50,000-1,00,000">50,000-1,00,000</td><td><input type="radio" name="Income" value="1 Lakh-5 Lakh">1 Lakh - 5 Lakh</td><td><input type="radio" name="Income" value="5 Lakh-10 Lakh">5 Lakh - 10 Lakh</td><td><input type="radio" name="Income" value="Above 10 Lakh">Above 10 Lakh</td>
+	</tr>
+	<tr>
+		<td>Education:</td><td><input type="radio" name="Education" value="High School">High School</td><td><input type="radio" name="Education" value="Graduate">Graduate</td><td><input type="radio" name="Education" value="Post Graduate">Post Graduate</td><td><input type="radio" name="Education" value="Professional">Professional</td><td><input type="radio" name="Education" value="Others" checked="yes">Others</td>
+	</tr>
+	<tr>
+		<td>I own the following:</td><td><input type="checkbox" name="own" value="Car">Car</td><td><input type="checkbox" name="own" value="Credit Card">Credit Card</td><td><input type="checkbox" name="own" value="Mobile Phone">Mobile Phone</td><td><input type="checkbox" name="own" value="Club Membership">Club Membership</td><td><input type="checkbox" name="own" value="Insurance Policy">Insurance Policy</td>
+	</tr>
+	<tr>
+		<td>Cycling Experience:</td><td><input type="checkbox" name="Experience" checked="yes">I am a Regular Cyclist</td><td><input type="checkbox" name="Experience" checked="yes">I am a part of a Cycling Club</td>
+	</tr>
+	<tr>
+		<td>Name of the Cycling Club:</td><td><input type="text" name="Club"></td>
+	</tr>
+	<tr>
+		<td align="center"><input type="reset" name="reset" value="Clear all fields"></td><td><input type="submit" name="submit" value="Submit"></td>
+	</tr>
+</table>
+</form>
 
-</body>
-</html>
+</body></html>
